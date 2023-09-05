@@ -1,0 +1,73 @@
+.logo-container {
+    z-index: 1;
+    width: 360px;
+    height: 80%;
+    border: 30px solid black;
+    border-image: url(../../../assets/images/borderimage.jpg) 25 25;
+    animation: frame 5s linear infinite;
+    position: absolute;
+    top: 0;
+    right: 175px;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+    animation-delay: 5s;
+    animation-duration: 5s;
+  }
+  @media screen and (max-width: 1200px) {
+    .logo-container {
+      border:15px solid black;
+      border-image: url(../../../assets/images/borderimage.jpg) 25 25;
+    }
+  }
+  .solid-logo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: 0px;
+    left: 0px;
+    margin-right: 20px;
+    width: 420px;
+    height: 90%;
+    transform: rotateZ(0deg) !important;
+    z-index: -1;
+    opacity: 0;
+    animation: slider 5s infinite;
+  }
+  @keyframes frame {
+    0% {
+      transform: scale(.9);
+      opacity: 0;
+    }
+    20% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    80% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes slider {
+    0% {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+    30% {
+      transform: translateX(-55px);
+      opacity: 1;
+    }
+    50% {
+      transform: translateX(-55px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+  }
