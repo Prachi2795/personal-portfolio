@@ -41,7 +41,7 @@
   
   .container.contact-page,
   .container.about-page,
-  .container.portfolio-page {
+  .container.project-page {
     
       h1 {
         font-size: 53px;
@@ -80,7 +80,7 @@
       }
   
       p {
-        font-size: 13px;
+        font-size: 20px;
         color: #fff;
         font-family: sans-serif;
         font-weight: 300;
@@ -153,7 +153,7 @@
       left: 10%;
       top: 50%;
       transform: translateY(-50%);
-      width: 35%;
+      width: 50%;
       vertical-align: middle;
       display: table-cell;
       max-height: 90%;
@@ -178,7 +178,7 @@
   
       &.contact-page,
       &.about-page,
-      &.portfolio-page {
+      &.project-page {
         .text-zone {
           position: initial;
           transform: none;
@@ -189,7 +189,7 @@
         }
       }
   
-      &.portfolio-page {
+      &.project-page {
         width: 100%;
         padding: 20px;
         box-sizing: border-box;

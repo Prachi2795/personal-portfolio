@@ -35,7 +35,7 @@ const About = () => {
           <p>
           A front-end developer with over three years of experience in crafting delightful and user-centric web experiences. I'm on a mission to transform the digital world, one pixel at a time, and I'm excited to share my journey with you.
           </p>
-          <h2>My Journey</h2>
+          <h1>My Journey</h1>
           <p align="LEFT">
             My passion for front-end development ignited during my career when I dabbled with HTML and CSS to create a internal site for team updates. The thrill of seeing my ideas come to life on the screen captured my heart, and I decided to dive headfirst into the world of web development.</p>
           <p>
@@ -46,7 +46,7 @@ const About = () => {
             person, wife of a man with a beautiful soul, a fitness freak,
             photography enthusiast, and tech-obsessed!!!
           </p>
-          <h2>My Expertise</h2>
+          <h1>My Expertise</h1>
           <p>
             Front-end development isn't just about writing code; it's about crafting seamless user experiences. Here are some areas where I excel:
             <ol>
@@ -63,10 +63,10 @@ const About = () => {
               <li><strong>Version Control:</strong> I'm proficient with Git and collaborative tools like GitHub, making teamwork efficient and code management a breeze.</li>
             </ol>
           </p>
-          <h2>What Sets Me Apart</h2>
+          <h1>What Sets Me Apart</h1>
           <p>
             What makes me unique is my dedication to keeping up with industry trends and best practices. I'm not content with merely meeting the current standards; I strive to stay ahead of the curve. My insatiable curiosity drives me to explore emerging technologies and frameworks, and I'm always eager to take on new challenges.</p>
-          <h2>Why Hire Me?</h2>
+          <h1>Why Hire Me?</h1>
           <p>
           <ol>
             <li><strong>Passion for Excellence:</strong> I approach every project with a commitment to excellence, aiming to exceed expectations in design, functionality, and performance.</li>
